@@ -1,0 +1,158 @@
+body {
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    line-height: 1.5;
+}
+
+header {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 230px;
+    height: 85px;
+}
+
+.carrinho {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    margin-top: 10px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tituloSobre {
+    background-color: #B3B3B0;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.textoSobre,
+.texto-baixo {
+    width: 900px;
+    margin-top: 0px;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.centro-distribuicao {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 40px;
+    width: 590px;
+    background-color: #F7F3F0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(187, 186, 186);
+}
+
+.centro-distribuicao-img {
+    width: 500px;
+    height: 350px;
+}
+
+.textoImagem {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.titulo {
+    margin-bottom: 0px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+hr {
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.familia-pelho {
+    text-align: center;
+    display: block;
+    width: 330px;
+    background-color: #F7F3F0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(187, 186, 186);
+    float: right;
+    margin: 0 0 15px 15px;
+}
+
+.familia-pelho-img {
+    width: 300px;
+}
+
+.texto-lado {
+    margin-top: 0px;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.DIFERENCIAIS ul {
+    list-style-type: disc;
+}
+
+.DIFERENCIAIS li {
+    margin-bottom: 5px;
+    margin-left: 38px;
+    font-size: 16px;
+}
+
+footer {
+    clear: both;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 2px solid #333;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+footer .social {
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+footer .social i {
+    font-size: 32px;
+    margin-left: 10px;
+    color: #333;
+}
+
+footer .social a {
+    text-decoration: none;
+}
